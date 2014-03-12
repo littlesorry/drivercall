@@ -18,7 +18,7 @@ Ext.application({
     ],
 
     views: [
-        'Main'
+        'Home'
     ],
 
     icon: {
@@ -44,7 +44,7 @@ Ext.application({
         Ext.fly('appLoadingIndicator').destroy();
 
         // Initialize the main view
-        Ext.Viewport.add(Ext.create('dirvercall.view.Main'));
+        Ext.Viewport.add(Ext.create('dirvercall.view.Home'));
     },
 
     onUpdated: function() {

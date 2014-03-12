@@ -646,7 +646,7 @@ Ext.ClassManager.addNameAlternateMappings({
   "dirvercall.model.Driver": [],
   "dirvercall.model.Order": [],
   "dirvercall.model.User": [],
-  "dirvercall.view.Main": [],
+  "dirvercall.view.Home": [],
   "dirvercall.view.TrackList": []
 });
 Ext.ClassManager.addNameAliasMappings({
