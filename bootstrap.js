@@ -638,7 +638,16 @@ Ext.ClassManager.addNameAlternateMappings({
   "Ext.viewport.WindowsPhone": [
     "Ext.viewport.WP"
   ],
-  "dirvercall.view.Main": []
+  "dirvercall.controller.CurrentOrderController": [],
+  "dirvercall.controller.FinishedOrderController": [],
+  "dirvercall.controller.ListDriverController": [],
+  "dirvercall.controller.MapDriverController": [],
+  "dirvercall.controller.OrderController": [],
+  "dirvercall.model.Driver": [],
+  "dirvercall.model.Order": [],
+  "dirvercall.model.User": [],
+  "dirvercall.view.Main": [],
+  "dirvercall.view.TrackList": []
 });
 Ext.ClassManager.addNameAliasMappings({
   "Ext.AbstractComponent": [],
@@ -1357,7 +1366,18 @@ Ext.ClassManager.addNameAliasMappings({
   "Ext.viewport.Ios": [],
   "Ext.viewport.Viewport": [],
   "Ext.viewport.WindowsPhone": [],
+  "dirvercall.controller.CurrentOrderController": [],
+  "dirvercall.controller.FinishedOrderController": [],
+  "dirvercall.controller.ListDriverController": [],
+  "dirvercall.controller.MapDriverController": [],
+  "dirvercall.controller.OrderController": [],
+  "dirvercall.model.Driver": [],
+  "dirvercall.model.Order": [],
+  "dirvercall.model.User": [],
   "dirvercall.view.Main": [
     "widget.main"
+  ],
+  "dirvercall.view.TrackList": [
+    "widget.tracklist"
   ]
 });

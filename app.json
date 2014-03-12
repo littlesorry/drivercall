@@ -72,7 +72,9 @@
      */
     "css": [
         {
-            "path": "resources/css/app.css",
+            "path": "touch/resources/css/cupertino.css",
+            "platform": ["chrome", "safari", "ios", "ios-classic", "firefox", "android"],
+            "theme": "Cupertino",
             "update": "delta"
         }
     ],
